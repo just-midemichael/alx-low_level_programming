@@ -9,6 +9,7 @@
 int main(void)
 {
 
-  printf("with the proper grammar, but the outcome is a piece of art,\n");	 return (0);
+  printf("with the proper grammar, but the outcome is a piece of art,\n");
+  return (0);
 
 }
