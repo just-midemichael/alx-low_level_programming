@@ -14,7 +14,7 @@ int main(void)
 
 	int babe;
 
-	for (babe = 0; babe <=9; babe++)
+	for (babe = 0; babe <= 9; babe++)
 	{
 		printf("%d", babe);
 	}
