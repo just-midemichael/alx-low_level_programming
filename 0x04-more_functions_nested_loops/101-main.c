@@ -3,7 +3,7 @@
 /**
  * main - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int main(void)
@@ -20,6 +20,5 @@ int main(void)
 	_putchar('\n');
 	print_number(-987654321);
 	_putchar('\n');
-
 	return (0);
 }
