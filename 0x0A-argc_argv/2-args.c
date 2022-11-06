@@ -3,9 +3,9 @@
 
 /**
  * main - program that prints all arguments it receives
- * @argc: counts the arguments
- * @argv: arrays of the argunments value
- * Return: Always 0 (Success)
+ * @argc: argc parameter
+ * @argv: an array of a command listed
+ * Return: 0 for success
  */
 
 int main(int argc, char *argv[])
