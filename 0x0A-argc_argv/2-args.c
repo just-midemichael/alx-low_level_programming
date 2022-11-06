@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * program that prints all arguments it receives
- * including the first one and ending with a new line
- * @argc - counts the arguments
- * @argv - arrays of the argunments value
+ * main - program that prints all arguments it receives
+ * @argc: counts the arguments
+ * @argv: arrays of the argunments value
  * Return: Always 0 (Success)
  */
 
