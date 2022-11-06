@@ -6,7 +6,7 @@
  * including the first one and ending with a new line
  * @argc - counts the arguments
  * @argv - arrays of the argunments value
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
