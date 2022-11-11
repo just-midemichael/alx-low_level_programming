@@ -40,6 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	/* Memory allocation */
 	s = malloc(sizeof(char) * n + s1_len + 1);
+
 	if (s == NULL)
 	{
 		return (NULL);
