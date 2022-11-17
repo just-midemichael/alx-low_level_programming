@@ -18,12 +18,14 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
+
 	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
+
 	func_ptr = (unsigned char *)main;
 	i = 0;
 	if (bytes > 0)
@@ -32,5 +34,6 @@ int main(int argc, char *argv[])
 			printf("%02hhx ", func_ptr[i++]);
 		printf("%hhx\n", func_ptr[i]);
 	}
+
 	return (0);
 }
